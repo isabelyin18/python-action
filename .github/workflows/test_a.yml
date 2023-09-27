@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: Run a python script
+      - name: Run a python script test
         run: python .github/workflows/example.py
 
    
