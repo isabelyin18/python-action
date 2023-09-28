@@ -3,5 +3,5 @@ def main():
   print("Hellow from GitHub Actions!")
 
 
-if _name_=='_main_':
+if __name__=='__main__':
   main()
