@@ -1,5 +1,7 @@
-def main():
-  print("Hellow from GitHub Actions!")
-if __name__=='__main__':
-  main()
 
+def main():
+    print("Hellow from GitHub AACTIONS!")
+    
+
+if __name__ == '__main__':
+    main()
