@@ -1,4 +1,3 @@
-
-  print("Hellow from GitHub Actions!")
+print("Hellow from GitHub Actions!")
 
 
