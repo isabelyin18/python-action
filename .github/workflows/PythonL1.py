@@ -41,7 +41,7 @@ class SkyThoughtCollector(object):
         if config.has_key(self.baseURLString):
                 self.airlines=config[self.airlinesString].split(',')
         if config.has_key(self.limitString):
-                self.limit=int(config[selflf.limitString])
+                self.limit=int(config[self.limitString])
         #print self.airlines
     def downloadURL(self,url):
             #print "downloading url"
