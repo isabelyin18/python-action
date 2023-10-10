@@ -3,9 +3,9 @@
 
 # In[5]:
 
-import sys
-sys.executable
-sys.path.append("/Users/fenlianyin/anaconda3/lib/python3.11/site-packages")
+#import sys
+#sys.executable
+#sys.path.append("/Users/fenlianyin/anaconda3/lib/python3.11/site-packages")
 
 from abc import ABCMeta,abstractmethod
 from bs4 import BeautifulSoup
