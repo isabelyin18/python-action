@@ -23,6 +23,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a python script test
-        run: python .github/workflows/example.py
+        run: python .github/workflows/pythonl1.py
 
    
