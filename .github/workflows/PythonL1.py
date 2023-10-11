@@ -148,7 +148,7 @@ class AirlineReviewCollector(SkyThoughtCollector):
                                 (seat_comfort,staff_service,catering,entertainment,recommend)=self.parseSoupTable.Table(tables[i])
                                 blog=str(blogs[i]).split(">")[1].split("<")[0]
                                 #args=[al,name,surname,year,month,date,country,stat,over_all,money_value,seat_comfort,
-                                 args=[al,name,surname,year,month,date,country,seat_comfort,
+                                args=[al,name,surname,year,month,date,country,seat_comfort,
                                  staff_service,catering,entertainment,recommend,blog]
                         super(AirlineReviewCollector,self).print_args(args)
                             
